@@ -16,6 +16,9 @@ if(move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path)) {
 	if(!mysql_query($sql, $con))	{
 		die("error: " . mysql_error());
 	}
+	
+	$link = basename($_FILES['uploadedfile']['name']);
+	mysql_query("insert into matList (title, sub_name, link) values('$_POST[title]','$_POST['name'], '$link'));
 
         mysql_close();
 

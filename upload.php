@@ -10,7 +10,7 @@ if(move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path)) {
         mysql_select_db("sunny_studies", $con);
 	
 	$a = $_POST['name'];
-	echo $a;
+	//echo $a;
         $sql = "update subList set entries=entries+1 where name='$a';";
 
 	if(!mysql_query($sql, $con))	{
@@ -18,7 +18,8 @@ if(move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path)) {
 	}
 	
 	$link = basename($_FILES['uploadedfile']['name']);
-	mysql_query("insert into matList (title, sub_name, link) values('$_POST[title]','$_POST['name'], '$link'));
+	echo $link;
+	mysql_query("insert into matList (title, sub_name, link) values('$_POST[title]','$_POST[name]', '$link')");
 
         mysql_close();
 

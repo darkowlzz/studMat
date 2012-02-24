@@ -21,14 +21,14 @@ mysql_select_db("sunny_studies", $con);
 $result = mysql_query("select name from subList;");
 
 while($row = mysql_fetch_array($result))	{
-	echo "<h3>" . $row[name] . "</h3>";
+	echo "<h3>" . $row[name] . "</h3><hr>";
 	
 	$titles = mysql_query("select title, link from matList where sub_name='$row[name]';");
 	while($r = mysql_fetch_array($titles))	{
 		echo "<a href='uploads/" . $r['link'] . "'>" . $r['title'] . "</a><br>";
 	}
 	
-	echo "<hr><hr>";
+	echo "<br/><hr><hr><br/>";
 }
 
 /*

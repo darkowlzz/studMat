@@ -20,6 +20,7 @@
 					
 					</select>
 		</p>
+		<p>Title: <input type="text" name="title"/><br/></p>
 		<input type="hidden" name="MAX_FILE_SIZE" value="100000"/>
 		Choose a file to upload: <input name="uploadedfile" type="file"/><br/>
 		<input type="submit" value = "Upload File"/>

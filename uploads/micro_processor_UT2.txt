@@ -1,0 +1,36 @@
+micro unit test 2 
+
+Question Bank
+
+141402- Microprocessors and Microcontrollers 
+
+PART A
+
+2 Marks
+
+1. List any 8 assembler directives.
+2. What is a recursive Procedure?
+3. What are Macros?
+4. Give the comparison between procedures and Macros.
+5. What are the advantages of Multi processor systems?
+6. What are the basic multi processor configurations?
+7. What are the Bus arbitration schemes in Loosely Coupled Configuration?
+8. In what ways are a standard microprocessor and a coprocessor different from each other?
+9. Give short notes on Daisy chaining.
+10. Draw the status flag of NDP and mention its names.
+
+16 Marks
+
+1. Explain the arithmetic group and Shift and Rotate group of the instruction set of Intel 8086 with five examples in each group? 
+2. Explain in detail the closely coupled and loosely coupled configurations with neat diagrams. 
+3. Write an assembly language program using 8086 instruction set to do the following arithmetic operations of the two 16 bit numbers stored from the memory locations 1200H to 1203H and store the result in the locations given against.
+a) Addition –Sum in 1400H and 1401H
+b) Subtraction – Difference in 1402H and 1403H
+c) Multiplication – Product from 1404H to 1407H
+d) Division - Quotient in 1408H & 1409H , Remainder in 140AH & 140BH 
+4. Explain in detail the closely coupled and loosely coupled configurations with neat diagram.
+5. Explain in detail about Macros and Procedures.
+6. Write an assembly language program to find the maximum and minimum numbers from an array of numbers.
+7. Explain the architecture of the NDP 8087 with a diagram
+8. Explain the architecture of IOP 8089 with a diagram
+10.Write an assembly language program using 8086 instruction set to find and store the number of odd and even numbers in an array of 100 bytes starting from the memory location 1200H and store the result in 1300H(for odd numbers) and in 1301H(for even numbers)

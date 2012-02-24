@@ -1,0 +1,52 @@
+117.202.129.168 117.202.129.168 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.835.202 Safari/535.1 
+14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+117.254.134.151 117.254.134.151 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.39 Safari/535.19 
+14:41:22 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+14:41:35 117.202.129.168 117.202.129.168 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.835.202 Safari/535.1 
+14:41:37 117.254.134.151 117.254.134.151 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.39 Safari/535.19 
+14:42:07 74.125.126.93 pz-in-f93.1e100.net Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 
+14:50:23 117.202.129.168 117.202.129.168 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.835.202 Safari/535.1 
+15:02:35 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+15:04:34 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 
+15:08:27 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686; rv:7.0.1) Gecko/20100101 Firefox/7.0.1 
+15:09:21 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+15:09:51 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+15:09:56 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+15:10:13 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+15:10:27 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+15:11:30 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+02:18:18 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+02:18:25 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+02:49:31 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+02:52:39 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+02:52:58 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+02:57:35 14.96.225.69 Static-69.225.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+03:01:57 141.0.10.211 s46-05.opera-mini.net Opera/9.80 (Android; Opera Mini/6.1.25375/27.1227; U; en) Presto/2.8.119 Version/11.10 
+05:56:24 14.96.161.233 Static-233.161.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+12:03:31 58.68.70.126 abs-static-126.70.68.58.aircel.co.in Mozilla/5.0 (Windows NT 5.1; rv:10.0.2) Gecko/20100101 Firefox/10.0.2 
+15:34:37 58.68.70.126 abs-static-126.70.68.58.aircel.co.in Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_4; en-us) AppleWebKit/533.18.1 (KHTML, like Gecko) Version/5.0.2 Safari/533.18.5 
+16:55:42 66.249.66.74 crawl-66-249-66-74.googlebot.com Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html) 
+18:35:15 117.254.125.3 117.254.125.3 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.39 Safari/535.19 
+19:27:23 14.96.28.67 Static-67.28.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+20:28:13 141.0.11.25 s05-11.opera-mini.net Opera/9.80 (J2ME/MIDP; Opera Mini/5.1.24009/27.1245; U; en) Presto/2.8.119 Version/11.10 
+20:30:13 49.203.180.16 Static-16.180.203.49.tataidc.co.in Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11 
+20:35:08 49.203.180.16 Static-16.180.203.49.tataidc.co.in Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11 
+20:49:57 112.79.44.28 112-79-44-28.live.vodafone.in SAMSUNG-GT-S3850/S3850DDKD1 SHP/VPP/R5 Dolfin/2.0 NexPlayer/3.0 SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 OPN-B 
+20:49:58 49.203.180.16 Static-16.180.203.49.tataidc.co.in Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11 
+20:49:58 49.203.180.16 Static-16.180.203.49.tataidc.co.in Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11 
+21:03:12 123.236.75.78 123.236.75.78 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11 
+21:46:09 117.202.132.167 117.202.132.167 Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 http://www.facebook.com/l.php?u=http%3A%2F%2Fstudies.darkowlzz.in%2F&h=2AQE-zootAQGULQw-9BxCr_A-rEb_x4S7WbFs8zhj-AK5vA
+21:58:24 14.96.173.33 Static-33.173.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+21:58:25 14.96.173.33 Static-33.173.96.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+22:16:23 117.202.133.89 117.202.133.89 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.77 Safari/535.7 
+23:20:08 213.155.151.238 213-155-151-238.customer.teliacarrier.com Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11 http://www.google.com/url?sa=D&q=http%3A//studies.darkowlzz.in/
+23:46:45 117.193.134.27 117.193.134.27 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.33 Safari/535.19 http://www.facebook.com/l.php?u=http%3A%2F%2Fstudies.darkowlzz.in%2F&h=cAQFiVeYvAQEvTag31DPlnrqgQizKVkueUNVL2UPnFcjbPQ
+00:37:40 14.99.168.68 Static-68.168.99.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+00:45:05 14.99.168.68 Static-68.168.99.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+06:28:59 66.249.66.138 crawl-66-249-66-138.googlebot.com Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html) 
+13:31:56 14.99.222.120 Static-120.222.99.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+13:31:59 14.99.222.120 Static-120.222.99.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+17:42:26 14.99.22.3 Static-3.22.99.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+18:06:33 14.99.22.3 Static-3.22.99.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+18:09:25 117.254.116.198 117.254.116.198 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.39 Safari/535.19 
+18:33:47 123.236.75.78 123.236.75.78 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11 

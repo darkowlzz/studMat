@@ -24,5 +24,5 @@ if(!mysql_query($sql, $con))	{
 }
 
 mysql_close();
-echo "Subject deleted!";
+echo "Category deleted!";
 ?>

@@ -30,7 +30,6 @@ if(move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path)) {
 	}
 	
 	$link = basename($_FILES['uploadedfile']['name']);
-	echo $link;
 	mysql_query("insert into matList (title, sub_name, link) values('$_POST[title]','$_POST[name]', '$link')");
 
         mysql_close();

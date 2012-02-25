@@ -32,13 +32,13 @@
 	</form>
 	<hr>
 	<form action="delTitle.php" method="post">
-		<p>Select a Material: <select name="title">
+		<p>Select a Material: <select name="title" >
 			<?php
 
 			$result = mysql_query("select title from matList;");
 			
 			while($row = mysql_fetch_array($result))	{
-				echo "<option value=$row[title]>$row[title]</option>";
+				echo "<option value='$row[title]'>$row[title]</option>";
 			}
 
 			mysql_close();

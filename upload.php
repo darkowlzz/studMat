@@ -1,4 +1,8 @@
 <?php
+
+if(md5($_POST['key'])!="f711b1b7a09153e6ded8772b2b7c4fa5")
+	die("Authentication failed!");
+
 $target_path = "uploads/";
 
 $target_path = $target_path . basename($_FILES['uploadedfile']['name']);

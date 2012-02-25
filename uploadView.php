@@ -21,8 +21,9 @@
 					</select>
 		</p>
 		<p>Title: <input type="text" name="title"/><br/></p>
-		<input type="hidden" name="MAX_FILE_SIZE" value="100000"/>
+		<input type="hidden" name="MAX_FILE_SIZE" value="100000000"/>
 		Choose a file to upload: <input name="uploadedfile" type="file"/><br/>
+		<p>PassPhrase: <input type="password" name='key'/></p>
 		<input type="submit" value = "Upload File"/>
 	</form>
 	</body>

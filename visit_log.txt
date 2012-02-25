@@ -52,3 +52,5 @@
 18:33:47 123.236.75.78 123.236.75.78 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11 
 20:15:48 117.202.143.240 117.202.143.240 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.77 Safari/535.7 
 20:39:23 14.99.47.129 Static-129.47.99.14.tataidc.co.in Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 
+08:53:41 141.0.10.8 s33-10.opera-mini.net Opera/9.80 (J2ME/MIDP; Opera Mini/4.4.27466/27.1251; U; en) Presto/2.8.119 Version/11.10 
+09:00:26 66.249.66.138 crawl-66-249-66-138.googlebot.com Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html) 

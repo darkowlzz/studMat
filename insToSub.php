@@ -1,4 +1,8 @@
 <?php
+
+if(md5($_POST['key']) != "f711b1b7a09153e6ded8772b2b7c4fa5")
+	die("Wrong Authentication failed");
+
 $con = mysql_connect("localhost", "sunny_studies", "darkowlzz");
 if (!$con)	{
 	die("Couldn't connect: " . mysql_error());

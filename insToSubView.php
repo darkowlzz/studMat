@@ -5,6 +5,7 @@
 	<body>
 	<form action="insToSub.php" method="post">
 		<p>Name of Subject: <input type="text" name="subName"/></p>
+		<p>Passphrase: <input type="password" name="key"/></p>
 		<p><input type="submit"/></p>
 	</form>
 	</body>

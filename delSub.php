@@ -1,5 +1,13 @@
 <?php
 
+function __autoload($class_name)        {
+        include $class_name . '.php';
+}
+
+$obj = new footer();
+$obj->text();
+
+
 if(md5($_POST['key']) != "f711b1b7a09153e6ded8772b2b7c4fa5")
 	die("Authentication failed!");
 

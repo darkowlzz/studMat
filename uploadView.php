@@ -3,6 +3,16 @@
 		<title>Upload a file</title>
 	</head>
 	<body>
+	<?php
+		function __autoload($class_name)        {
+		        include $class_name . '.php';
+		}
+
+		$obj = new footer();
+		$obj->text();
+
+	?>
+
 	<form enctype="multipart/form-data" action="upload.php" method="post">
 		<p>Select the subject:  <select name="name">
 			<?php

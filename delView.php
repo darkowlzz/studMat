@@ -3,6 +3,16 @@
 		<title>Delete a Subject</title>
 	</head>
 	<body>
+
+	<?php
+		function __autoload($class_name)        {
+		        include $class_name . '.php';
+		}
+
+		$obj = new footer();
+		$obj->text();
+	
+	?>	
 	<form action="delSub.php" method="post">
 		<p>Select a subject:  <select name="name">
 			<?php

@@ -24,5 +24,8 @@ if(!mysql_query($sql, $con))	{
 }
 	
 mysql_close();
-echo "Subject added!"
+echo "Subject added!";
+
+$obj->bottom();
+
 ?>

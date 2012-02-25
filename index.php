@@ -1,4 +1,6 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 	<head>
 		<title>Studymaterial Downloads</title>
 	</head>
@@ -11,18 +13,15 @@ function __autoload($class_name)	{
 }
 
 $obj = new footer();
+
 $obj->text();
 
+echo "<p><b>Welcome to StudMat, your study material download hub. You can get all the materials below separated into various categories.</b></p><br>";
 $con = mysql_connect("localhost", "sunny_studies", "darkowlzz");
 if (!$con)	{
 	die("Couldn't connect: " . mysql_error());
 }
-//else echo "connected da!";
-/*if(mysql_query("use studies;", $con))	{
-	echo "database selected.";
-}
-else echo "error: " . mysql_error();
-*/
+
 mysql_select_db("sunny_studies", $con);
 
 $result = mysql_query("select name from subList;");
@@ -31,36 +30,36 @@ while($row = mysql_fetch_array($result))	{
 	echo "<h3>" . $row[name] . "</h3>";
 	
 	$titles = mysql_query("select title, link from matList where sub_name='$row[name]';");
+
 	echo "<ul>";
+	$x = mysql_fetch_array($titles);
+	if(!$x)
+		echo "<p>Nothing here yet</p>";
+	$titles = mysql_query("select title, link from matList where sub_name='$row[name]';");
+
+
 	while($r = mysql_fetch_array($titles))	{
 		echo "<li><a href='uploads/" . $r['link'] . "'>" . $r['title'] . "</a></li>";
 	}
 	echo "</ul>";
 	
-	echo "<br/><hr>";
+	echo "<br/>";
 }
 
-echo "<br><br>";
-/*
-$result = mysql_query("select * from subList;");
-
-while($row = mysql_fetch_array($result))  {
-	echo $row['name'] . " " . $row['entries'] . "<br/>";
-}
-*/
-	
+$obj->bottom();
 mysql_close();
 
 date_default_timezone_set("Asia/Calcutta");
 $ip = $_SERVER['REMOTE_ADDR'];
 $hostaddress = gethostbyaddr($ip);
 $browser = $_SERVER['HTTP_USER_AGENT'];
-$referred = $_SERVER['HTTP_REFERER']; // a quirky spelling mistake that stuck in php
-$time = date("Y-m-d H:i:s");
+$referred = $_SERVER['HTTP_REFERER'];
+$time = date("H:i:s");
+$date = date("Y-m-d");
 
 $myfile = "visit_log.txt" or die("can't open file");
 $fh = fopen($myfile, 'a');
-$stringData = "$time $ip $hostaddress $browser $referred\n";
+$stringData = "$date $time $ip $hostaddress $browser $referred\n";
 
 fseek($fh, 0);
 fwrite($fh, $stringData);

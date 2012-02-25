@@ -36,6 +36,9 @@
 		<p>PassPhrase: <input type="password" name='key'/></p>
 		<input type="submit" value = "Upload File"/>
 	</form>
+	<?php
+		$obj->bottom();
+	?>
 	</body>
 </html>
 

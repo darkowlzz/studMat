@@ -13,6 +13,7 @@
 		$obj->text();
 	
 	?>	
+	<p><b>Delete a category.</b></p>
 	<form action="delSub.php" method="post">
 		<p>Select a subject:  <select name="name">
 			<?php
@@ -31,6 +32,7 @@
 		<input type="submit" value="Delete the subject"/>
 	</form>
 	<hr>
+	<p><b>Delete a material.</b></p>
 	<form action="delTitle.php" method="post">
 		<p>Select a Material: <select name="title" >
 			<?php
@@ -49,7 +51,9 @@
 		<p>PassPhrase: <input type="password" name="key"/>
 		<input type="submit" value = "Delete the Material"/>
 	</form>
-	<hr>
+	<?php
+		$obj->bottom();
+	?>
 	</body>
 </html>
 

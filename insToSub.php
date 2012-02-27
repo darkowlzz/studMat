@@ -8,8 +8,10 @@ $obj = new footer();
 $obj->text();
 
 
-if(md5($_POST['key']) != "f711b1b7a09153e6ded8772b2b7c4fa5")
-	die("Wrong Authentication failed");
+if(md5($_POST['key']) != "f711b1b7a09153e6ded8772b2b7c4fa5")	{
+	echo "Authentication failed!";
+	die($obj->bottom());
+}
 
 $con = mysql_connect("localhost", "sunny_studies", "darkowlzz");
 if (!$con)	{

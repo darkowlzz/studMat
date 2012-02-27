@@ -13,8 +13,9 @@
 
 	?>
 
+	<p><b>Select a Category to which you want to add the new material</b></p>
 	<form enctype="multipart/form-data" action="upload.php" method="post">
-		<p>Select the subject:  <select name="name">
+		<p>Select the category:  <select name="name">
 			<?php
 			$con = mysql_connect("localhost", "sunny_studies", "darkowlzz");
 			mysql_select_db("sunny_studies", $con);

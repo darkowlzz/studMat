@@ -4,22 +4,26 @@ class footer	{
 	public $menu = array("Home", "Create Category", "Upload", "Delete", "About");	
 	public $links = array("Home"=>"/", "Create Category"=>"/insToSubView.php", "Upload"=>"/uploadView.php", "Delete"=>"/delView.php", "About"=>"/about.php");
 	public function text()	{
-		echo "<head><link href='http://fonts.googleapis.com/css?family=Share:400,700' rel='stylesheet' type='text/css'/><link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'/><link rel='stylesheet' type='text/css' media='all' href='css/my.css'/>";
+		echo "<head><link rel='stylesheet' type='text/css' media='all' href='bootstrap/css/bootstrap.css'/><link href='bootstrap/css/bootstrap-responsive.css' rel='stylesheet'/>";
 		echo "<script type='text/javascript' src='https://apis.google.com/js/plusone.js'></script>";
 		echo "</head>";
-		echo "<h2 style='color:blue;'>StudMat</h2>";
+		echo "<div class='hero-unit'>";
+		echo "<h1><a href='http://studies.darkowlzz.in' style='text-decoration:none'>Stud-Mat</a></h1><p>Open Sharing, no more email dependencies</p>";
+		echo "</div>";
 		echo "<g:plusone></g:plusone>";
-		//echo "<hr>";
+		echo "<div class='navbar navbar-fixed-top'>";
+		echo "<div class='navbar-inner'><div class='container'>";
+		echo "<div class='nav-collapse'><ul class='nav'>";
 		for($i=0; $i<5; $i++)	{
-			for($j=0; $j<20; $j++)
-				echo "&nbsp";
-			echo "<a href='" . $this->links[$this->menu[$i]] . "'>" . $this->menu[$i] . "</a>";
+			echo "<li><a href='" . $this->links[$this->menu[$i]] . "'>" . $this->menu[$i] . "</a></li>";
 		}		
-		echo "<br><hr><br>";
+		echo "</ul></div></div></div></div>";
+		echo "<body style='margin-left:1cm; margin-right:1cm;'>";
 	}
 	
 	public function bottom()	{
-	echo "<hr>Source codes available at <a href='https://github.com/indiasuny000/studMat'>github</a>";
-	echo "<br><a href='http://apps24.in'><img src='/images/apps24logo.jpg'/></a>";
+	echo "<hr/><footer class='footer'><p>Source codes available at <a href='https://github.com/indiasuny000/studMat'>github</a></p>";
+	echo "<a href='http://apps24.in'><img src='/images/apps24logo.jpg'/></a>";
+	echo "</footer>";
 	}
 }

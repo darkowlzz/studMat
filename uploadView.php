@@ -14,8 +14,11 @@
 	?>
 
 	<p><b>Select a Category to which you want to add the new material</b></p>
-	<form enctype="multipart/form-data" action="upload.php" method="post">
-		<p>Select the category:  <select name="name">
+	<form class="form-horizontal" enctype="multipart/form-data" action="upload.php" method="post">
+		<div class="control-group">
+			<label class="control-label" for="name">Select a category</label>
+			<div class="controls">
+				<select name="name">
 			<?php
 			$con = mysql_connect("localhost", "sunny_studies", "darkowlzz");
 			mysql_select_db("sunny_studies", $con);
@@ -29,13 +32,36 @@
 			mysql_close();
 			?>
 					
-					</select>
-		</p>
-		<p>Title: <input type="text" name="title"/><br/></p>
-		<input type="hidden" name="MAX_FILE_SIZE" value="100000000"/>
-		Choose a file to upload: <input name="uploadedfile" type="file"/><br/>
-		<p>PassPhrase: <input type="password" name='key'/></p>
-		<input type="submit" value = "Upload File"/>
+				</select>
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="title">Title</label>
+			<div class="controls">
+				<input type="text" name="title"/><br/></p>
+			</div>
+		</div>
+				<input type="hidden" name="MAX_FILE_SIZE" value="100000000"/>
+
+		<div class="control-group">
+			<label class="control-label" for="uploadedfile">Choose a file to upload</label>
+			<div class="controls">
+				<input name="uploadedfile" type="file"/>
+			</div>
+		</div>
+		
+		<div class="control-group">
+			<label class="control-label" for="key">Passphrase</label>
+			<div class="controls">
+				<input type="password" name="key"/>
+			</div>
+		</div>
+		
+		<div class="control-group">
+			<div class="form-actions">
+				<button type="submit" class="btn btn-primary pull-center">Upload</button>
+			</div>
+		</div>
 	</form>
 	<?php
 		$obj->bottom();

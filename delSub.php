@@ -25,6 +25,12 @@ if(!mysql_query($sql, $con))	{
 	die('Error: ' .  mysql_error());
 }
 
+$sql = "delete from matList where sub_name='$_POST[name]';";
+
+if(!mysql_query($sql, $con))	{
+	die('Error: ' .  mysql_error());
+}
+
 mysql_close();
 echo "Category deleted!";
 ?>

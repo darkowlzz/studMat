@@ -14,6 +14,7 @@ $obj = new footer();
 
 $obj->text();
 
+echo "<g:plusone></g:plusone>";
 echo "<p><b>Welcome to StudMat, your study material download hub. You can get all the materials below separated into various categories.</b></p><br>";
 $con = mysql_connect("localhost", "sunny_studies", "darkowlzz");
 if (!$con)	{

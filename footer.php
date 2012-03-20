@@ -10,7 +10,6 @@ class footer	{
 		echo "<div class='hero-unit'>";
 		echo "<h1><a href='http://studies.darkowlzz.in' style='text-decoration:none'>Stud-Mat</a></h1><p>Open Sharing, no more email dependencies</p>";
 		echo "</div>";
-		echo "<g:plusone></g:plusone>";
 		echo "<div class='navbar navbar-fixed-top'>";
 		echo "<div class='navbar-inner'><div class='container'>";
 		echo "<div class='nav-collapse'><ul class='nav'>";

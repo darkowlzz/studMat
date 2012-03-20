@@ -26,7 +26,7 @@
 			$result = mysql_query("select name from subList;");
 			
 			while($row = mysql_fetch_array($result))	{
-				echo "<option value=$row[name]>$row[name]</option>";
+				echo "<option value='$row[name]'>$row[name]</option>";
 			}
 			
 			mysql_close();
